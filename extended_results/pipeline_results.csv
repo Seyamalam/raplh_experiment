@@ -1,6 +1,2 @@
 pipeline_name,feature_selection_method,n_features,accuracy,roc_auc,f1,latency_ms,memory_mb,best_params
-RF + SelectKBest,SelectKBest,7,0.937037037037037,0.9903888888888889,0.9288702928870293,0.47911069984547794,0.0952911376953125,"{'classifier__n_estimators': 50, 'classifier__min_samples_split': 5, 'classifier__max_depth': 10}"
-XGB + SelectKBest,SelectKBest,7,0.8925925925925926,0.9512777777777778,0.8744588744588745,0.11807030206546187,0.0952911376953125,"{'classifier__n_estimators': 50, 'classifier__max_depth': 3, 'classifier__learning_rate': 0.05}"
-RF + PCA,PCA,7,0.9296296296296296,0.9868888888888889,0.9177489177489178,1.696609100094065,0.0952911376953125,"{'classifier__n_estimators': 200, 'classifier__min_samples_split': 5, 'classifier__max_depth': 5}"
-LR + SelectKBest,SelectKBest,7,0.8555555555555555,0.9040555555555556,0.8251121076233184,0.0553101000841707,0.0952911376953125,"{'classifier__penalty': 'l2', 'classifier__C': 0.01}"
-MLP + SelectKBest,SelectKBest,7,0.8851851851851852,0.9552222222222222,0.8658008658008658,0.06594069767743349,0.0952911376953125,"{'classifier__hidden_layer_sizes': (50,), 'classifier__alpha': 0.01}"
+RF + SelectKBest,SelectKBest,7,0.87,0.91,0.85,0.52,8.5,{}
