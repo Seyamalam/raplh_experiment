@@ -1,0 +1,78 @@
+Folder PATH listing
+Volume serial number is 9CF0-B39A
+C:.
+|   benchmark_heart_disease.py
+|   benchmark_heart_disease_extended.py
+|   benchmark_results.csv
+|   Heart_Disease_Prediction.csv
+|   master_benchmark_results.csv
+|   nul
+|   README.md
+|   Research_Paper.md
+|   test_benchmark.py
+|   test_extended_benchmark.py
+|   tree.txt
+|   
++---.pytest_cache
+|   |   .gitignore
+|   |   CACHEDIR.TAG
+|   |   README.md
+|   |   
+|   \---v
+|       \---cache
+|               lastfailed
+|               nodeids
+|               stepwise
+|               
++---.ralphy
+|       config.yaml
+|       progress.txt
+|       
++---.ruff_cache
+|   |   .gitignore
+|   |   CACHEDIR.TAG
+|   |   
+|   \---0.6.4
+|           11856495076268635478
+|           
++---catboost_info
+|   |   catboost_training.json
+|   |   learn_error.tsv
+|   |   time_left.tsv
+|   |   
+|   +---learn
+|   |       events.out.tfevents
+|   |       
+|   \---tmp
+|           cat_feature_index.193912ea-758cf5df-b3759427-7357fea5.tmp
+|           cat_feature_index.58e62d7d-759d398-f8181494-6b2fb828.tmp
+|           cat_feature_index.7234973-8879035d-e230f0a-b3ff370e.tmp
+|           cat_feature_index.8cbccd5b-8a40cd1e-a976a3ac-7cb520af.tmp
+|           cat_feature_index.925b808a-bb862f00-b932245e-b0feb9ba.tmp
+|           cat_feature_index.9765359f-630d9345-f3cfac59-d0b052cc.tmp
+|           cat_feature_index.d11a4590-ca8d106d-92d5584c-197639b7.tmp
+|           
++---extended_results
+|       data_scarcity_results.csv
+|       nested_cv_results.csv
+|       pipeline_results.csv
+|       stacked_ensemble_results.csv
+|       
++---visualizations
+|       data_scarcity_analysis.png
+|       efficiency_metrics.png
+|       learning_curves.png
+|       model_comparison.png
+|       nested_cv_results.png
+|       performance_vs_efficiency.png
+|       pipeline_comparison.png
+|       pr_curves.png
+|       roc_curves.png
+|       top_models_metrics.png
+|       
+\---__pycache__
+        benchmark_heart_disease.cpython-312.pyc
+        benchmark_heart_disease_extended.cpython-312.pyc
+        test_benchmark.cpython-312-pytest-8.3.4.pyc
+        test_extended_benchmark.cpython-312-pytest-8.3.4.pyc
+        

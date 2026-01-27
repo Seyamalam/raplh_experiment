@@ -1,0 +1,46 @@
+# Ralphy Configuration for Advanced Heart Disease Benchmarking
+# Project: Heart_Disease_Deep_Benchmark
+
+project:
+  name: "heart_disease_benchmark"
+  language: "Python"
+  framework: "Scikit-Learn, XGBoost, CatBoost, LightGBM, PyTorch, TabNet"  
+  description: "Benchmarking 20+ ML/DL models on Heart_Disease_Prediction.csv for efficiency and performance balance."
+
+commands:
+  # Ensuring the agent verifies script syntax and basic execution
+  test: "python -c 'import pandas as pd; import matplotlib.pyplot as plt; print(\"Environment Ready\")'"
+  lint: "flake8 ."
+
+rules:
+  - "Model Progression: Start with simple baselines (Logistic Regression, Naive Bayes), move to tree ensembles (Random Forest, XGBoost, CatBoost, LightGBM), and finish with Deep Learning (MLP, TabNet) and complex Ensembles (Stacking, Voting)."
+  - "Model Quantity: Implement and benchmark at least 20 unique model configurations, including hybrid and ensemble variations."
+  - "Evaluation Metrics: Calculate and record Accuracy, Precision, Recall, F1-Score, ROC-AUC, PR-AUC, MCC (Matthews Correlation Coefficient), Inference Latency (ms), and Peak Memory Usage."
+  - "Data Handling: Perform rigorous preprocessing including handling outliers, feature scaling (Standard/MinMax), and encoding categorical variables."
+  - "Result Storage: Save all comparative metrics into a master file named 'benchmark_results.csv'."
+  - "Visualization: Generate PNG diagrams for ROC/PR curves, Feature Importance, and a 'Performance vs. Efficiency' scatter plot comparing all 20+ models."
+  - "Research Documentation: Author a comprehensive research paper in 'Research_Paper.md' containing an Abstract, Methodology, Results Analysis (citing the generated CSV and PNGs), and Conclusion."
+  - "Automation: If a training script fails, analyze the error output and self-correct the implementation."
+  - "Scientific Standard: The research paper must follow the IMRaD (Introduction, Methods, Results, and Discussion) structure, targeting Q1 medical informatics journal standards."
+  - "Skill Leveraging: Before implementation, read and apply relevant advanced coding playbooks found in OpenCode skill directories to ensure optimized model architectures."
+  - "Model Depth: Train 20+ models, progressing from baseline statistical models to deep learning (TabNet, MLP) and advanced ensembles (Bayesian-optimized Stacking and Soft-Voting)."
+  - "Statistical Rigor: Include 5-fold cross-validation for all models and calculate 95% confidence intervals for primary metrics (Accuracy, ROC-AUC, F1)."
+  - "Efficiency Benchmarking: Measure and report 'Efficiency-Adjusted Performance'—a custom metric balancing inference latency, memory footprint, and predictive power."
+  - "Visualization: Produce publication-ready PNGs: multi-model ROC/PR comparison curves, SHAP value plots for feature importance, and a 3D scatter plot for the Performance-Efficiency-Complexity trade-off."
+  - "Data Archiving: Save all hyperparameter logs and raw performance data into 'master_benchmark_results.csv' for reproducibility."
+
+boundaries:
+  never_touch:
+    - "*.lock"
+    - ".git/**"
+    - ".ralphy/**"
+    - "Heart_Disease_Prediction.csv"
+
+capabilities:
+  # Set to true to allow the agent to verify visual outputs if agent-browser is available
+  browser: "auto" 
+
+notifications:
+  # Optional: Add your webhooks here to get notified when the 20+ model loop completes
+  discord_webhook: ""
+  slack_webhook: ""
