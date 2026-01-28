@@ -853,30 +853,6 @@ Future work will explore:
 
 ---
 
-## References
-
-1. World Health Organization. (2021). Cardiovascular diseases (CVDs). https://www.who.int/health-topics/cardiovascular-diseases
-
-2. Chen, T., & Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 785-794.
-
-3. Ke, G., et al. (2017). LightGBM: A Highly Efficient Gradient Boosting Decision Tree. Advances in Neural Information Processing Systems, 30, 3146-3154.
-
-4. Dorogush, A. V., Ershov, V., & Gulin, A. (2018). CatBoost: unbiased boosting with categorical features. Proceedings of the Neural Information Processing Systems Workshop on Learning to Learn, 1-6.
-
-5. Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5-32.
-
-6. Hastie, T., Tibshirani, R., & Friedman, J. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.). Springer.
-
-7. Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830.
-
-8. Chicco, D., & Jurman, G. (2020). Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making, 20(1), 1-16.
-
-9. Liao, Z., et al. (2020). Ensemble learning for classification of coronary artery disease. Computers in Biology and Medicine, 123, 103897.
-
-10. topiwala, A., et al. (2021). Evaluation of machine learning models for predicting heart disease. Journal of Biomedical Informatics, 122, 103872.
-
----
-
 ## Appendix A: Complete Benchmark Results
 
 See `benchmark_results.csv` for detailed results for all 28 models, including:
